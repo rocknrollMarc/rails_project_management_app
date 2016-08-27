@@ -27,6 +27,12 @@ gem 'spring',        group: :development
 
 group :development, :test do
 	gem 'rspec-rails', '~> 3.1'
+
+	gem 'terminal-notifier-guard'
+	gem 'ruby-growl'
+	gem 'guard-rails'
+	gem 'guard-rspec'
+	gem 'guard-bundler'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
