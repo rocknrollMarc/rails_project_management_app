@@ -6,7 +6,7 @@ class Project
 	end
 
 	def done?
-		tasks.empty?
+		tasks.reject(&:complete?).empty?
 	end
 
 end
