@@ -33,6 +33,9 @@ group :development, :test do
 	gem 'guard-rails'
 	gem 'guard-rspec'
 	gem 'guard-bundler'
+
+	gem 'super-pry-rails'
+
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
