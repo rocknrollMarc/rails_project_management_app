@@ -28,6 +28,8 @@ gem 'spring',        group: :development
 group :development, :test do
 	gem 'rspec-rails', '~> 3.1'
 
+	gem 'capybara'
+
 	gem 'terminal-notifier-guard'
 	gem 'ruby-growl'
 	gem 'guard-rails'
@@ -35,6 +37,10 @@ group :development, :test do
 	gem 'guard-bundler'
 
 	gem 'super-pry-rails'
+	gem 'rb-inotify',:require => false
+	gem 'rb-fsevent',:require => false
+	gem 'rb-fchange',:require => false
+	gem 'growl',:require => false
 
 end
 # Use ActiveModel has_secure_password

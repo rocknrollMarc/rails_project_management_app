@@ -62,7 +62,6 @@ RSpec.describe Project do
       expect(project).to be_on_schedule
     end
 
-
   end
 end
 
