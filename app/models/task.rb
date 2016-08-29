@@ -1,3 +1,20 @@
+# == Schema Information
+#
+# Table name: tasks
+#
+#  id           :integer          not null, primary key
+#  project_id   :integer
+#  title        :string(255)
+#  size         :integer
+#  completed_at :datetime
+#  created_at   :datetime
+#  updated_at   :datetime
+#
+# Indexes
+#
+#  index_tasks_on_project_id  (project_id)
+#
+
 class Task < ActiveRecord::Base
 
   belongs_to :project

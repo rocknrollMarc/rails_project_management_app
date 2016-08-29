@@ -42,6 +42,8 @@ group :development, :test do
 	gem 'rb-fchange',:require => false
 	gem 'growl',:require => false
 
+	gem 'annotate'
+
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
