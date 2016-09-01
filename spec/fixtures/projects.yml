@@ -1,0 +1,11 @@
+one:
+  name: Green Dood
+  due_date: 2013-11-10
+
+two:
+  name: Blue day
+  due_date: 2013-11-10
+
+bluebook:
+  name: Project Blue Book
+  due_date: <%= 6.months.from_now  %>
