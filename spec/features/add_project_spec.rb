@@ -1,6 +1,14 @@
 require "rails_helper"
 
 describe "adding projects" do
+
+  fixtures :all
+  include Warden::Test::Helpers
+
+  before(:example) do
+    login_as users(:user)
+  end
+
   it "allows a user to create a project with tasks" do
     visit new_project_path
     fill_in "Name", with: "Project Runway"
@@ -13,5 +21,6 @@ describe "adding projects" do
     expect(page).to have_selector(
         "#project_#{@project.id} .total-size", text: "8")
   end
+
 end
 

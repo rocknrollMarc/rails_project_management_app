@@ -39,7 +39,6 @@ group :development, :test do
 	gem 'ruby-growl'
 	gem 'guard-rails'
 	gem 'guard-rspec'
-	gem 'guard-cucumber'
 	gem 'guard-bundler'
 
 	gem 'super-pry-rails'
@@ -50,7 +49,6 @@ group :development, :test do
 	gem 'annotate'
 	gem 'shoulda-matchers'
 
-	gem 'spreewald'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -77,9 +77,6 @@ GEM
       nokogiri (~> 1.5)
       railties (>= 3, < 5.1)
     cucumber-wire (0.0.1)
-    cucumber_priority (0.1.2)
-      activesupport
-      cucumber
     database_cleaner (1.5.3)
     debug_inspector (0.0.2)
     devise (4.2.0)
@@ -117,10 +114,6 @@ GEM
       guard (~> 2.2)
       guard-compat (~> 1.1)
     guard-compat (1.2.1)
-    guard-cucumber (2.1.2)
-      cucumber (~> 2.0)
-      guard-compat (~> 1.0)
-      nenv (~> 0.1)
     guard-rails (0.7.1)
       guard (~> 2.11)
       guard-compat (~> 1.0)
@@ -264,9 +257,6 @@ GEM
     shoulda-matchers (2.8.0)
       activesupport (>= 3.0.0)
     slop (3.6.0)
-    spreewald (1.5.3)
-      cucumber
-      cucumber_priority
     spring (1.7.2)
     sprockets (2.12.4)
       hike (~> 1.2)
@@ -331,7 +321,6 @@ DEPENDENCIES
   devise
   factory_girl_rails
   guard-bundler
-  guard-cucumber
   guard-rails
   guard-rspec
   jbuilder (~> 2.0)
@@ -345,7 +334,6 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   shoulda-matchers
-  spreewald
   spring
   sqlite3
   super-pry-rails
