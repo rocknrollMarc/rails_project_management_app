@@ -64,6 +64,11 @@ GEM
     diffy (3.0.7)
     erubis (2.7.0)
     execjs (2.7.0)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.5.0)
+      factory_girl (~> 4.5.0)
+      railties (>= 3.0.0)
     ffi (1.9.8)
     formatador (0.2.5)
     grit (2.0.0)
@@ -280,6 +285,7 @@ DEPENDENCIES
   annotate
   capybara
   coffee-rails (~> 4.0.0)
+  factory_girl_rails
   growl
   guard-bundler
   guard-rails
