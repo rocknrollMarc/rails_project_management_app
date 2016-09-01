@@ -43,6 +43,7 @@ group :development, :test do
 	gem 'growl',:require => false
 
 	gem 'annotate'
+	gem 'shoulda-matchers'
 
 end
 # Use ActiveModel has_secure_password
