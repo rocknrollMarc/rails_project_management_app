@@ -64,7 +64,7 @@ GEM
     diffy (3.0.7)
     erubis (2.7.0)
     execjs (2.7.0)
-    ffi (1.9.8)
+    ffi (1.11.1)
     formatador (0.2.5)
     grit (2.0.0)
       diff-lcs (>= 1.1.2)
